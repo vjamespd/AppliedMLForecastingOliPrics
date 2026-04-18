@@ -1,0 +1,6 @@
+Statistic,Value
+Original frequency,Daily
+Resampled frequency,Weekly
+Raw daily row count,4918
+Weekly row count,1006
+Aggregation rule used,W-FRI mean

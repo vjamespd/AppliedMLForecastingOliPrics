@@ -1,0 +1,5 @@
+Model,Model type,Inputs used,Forecasting strategy,Tuning approach,Evaluation metrics
+ARIMA baseline,ARIMA,Weekly Oilprice only,Direct multi-step forecast over held-out test horizon,"Notebook-verified grid search over p,d,q with RMSE ranking","RMSE, MAE, MAPE, R^2"
+SARIMAX + oil + us-index,SARIMAX,Weekly Oilprice with weekly us-index exogenous input,Direct multi-step forecast over held-out test horizon,Notebook-verified search over order and seasonal_order with RMSE ranking,"RMSE, MAE, MAPE, R^2"
+ANN + oil only,MLPRegressor in Pipeline,4 lagged Oilprice features,Supervised one-step-ahead prediction on time-ordered test set,RandomizedSearchCV with TimeSeriesSplit(n_splits=5),"RMSE, MAE, MAPE, R^2"
+ANN + oil + us-index,MLPRegressor in Pipeline,4 lagged Oilprice and 4 lagged us-index features,Supervised one-step-ahead prediction on time-ordered test set,RandomizedSearchCV with TimeSeriesSplit(n_splits=5),"RMSE, MAE, MAPE, R^2"

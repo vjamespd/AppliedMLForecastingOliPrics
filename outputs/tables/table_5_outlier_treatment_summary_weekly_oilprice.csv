@@ -1,0 +1,10 @@
+Statistic,Value
+Q1,53.99975
+Q3,88.9195
+IQR,34.91975
+Lower bound,1.6201249999999945
+Upper bound,141.299125
+Number of outliers detected,1.0
+Number of values capped,1.0
+Capped minimum,3.3240000000000007
+Capped maximum,141.299125

@@ -1,0 +1,3 @@
+Modeling family,Train start date,Train end date,Train observations,Test start date,Test end date,Test observations
+ARIMA/SARIMAX,2005-01-07,2020-05-29,804,2020-06-05,2024-04-12,202
+ANN,2005-02-04,2020-06-05,801,2020-06-12,2024-04-12,201

@@ -1,0 +1,9 @@
+Statistic,Value
+Number of rows,4918
+Number of columns,2
+Column names,"Oilprice, us-index"
+Start date,2005-01-03
+End date,2024-04-11
+Frequency before resampling,Daily
+Target variable,Oilprice
+Exogenous variable,us-index

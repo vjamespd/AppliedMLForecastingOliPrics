@@ -1,0 +1,3 @@
+Experiment,Rows,Feature_Count,Train_Rows,Test_Rows,Lag_Count,Exogenous_Input
+ANN + oil only,1002,4,801,201,4,None
+ANN + oil + US Index,1002,8,801,201,4,us-index
