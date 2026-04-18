@@ -53,6 +53,23 @@ def inject_styles() -> None:
             [data-testid="stSidebar"] * {
                 color: #f6f0e5;
             }
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] div[data-baseweb="input"] {
+                background: #fffaf2;
+                border: 1px solid rgba(213, 155, 53, 0.35);
+                border-radius: 14px;
+            }
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] input {
+                color: #102b39 !important;
+                -webkit-text-fill-color: #102b39 !important;
+                caret-color: #102b39;
+                font-weight: 600;
+            }
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] button,
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] button *,
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] svg {
+                color: #8e5c0a !important;
+                fill: #8e5c0a !important;
+            }
             .hero-card {
                 padding: 1.4rem 1.6rem;
                 border-radius: 24px;
