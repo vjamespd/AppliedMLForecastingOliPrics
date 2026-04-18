@@ -54,15 +54,22 @@ def inject_styles() -> None:
                 color: #f6f0e5;
             }
             [data-testid="stSidebar"] [data-testid="stNumberInput"] div[data-baseweb="input"] {
-                background: #fffaf2;
-                border: 1px solid rgba(213, 155, 53, 0.35);
+                background: #fffaf2 !important;
+                border: 1px solid rgba(213, 155, 53, 0.35) !important;
                 border-radius: 14px;
             }
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] div[data-baseweb="input"] > div {
+                background: #fffaf2 !important;
+            }
             [data-testid="stSidebar"] [data-testid="stNumberInput"] input {
+                background: #fffaf2 !important;
                 color: #102b39 !important;
                 -webkit-text-fill-color: #102b39 !important;
                 caret-color: #102b39;
                 font-weight: 600;
+            }
+            [data-testid="stSidebar"] [data-testid="stNumberInput"] button {
+                background: #fffaf2 !important;
             }
             [data-testid="stSidebar"] [data-testid="stNumberInput"] button,
             [data-testid="stSidebar"] [data-testid="stNumberInput"] button *,
